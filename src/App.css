@@ -1,7 +1,5 @@
 .App {
   text-align: center;
-  background-color: #000000;
-
 }
 
 .App-logo {
@@ -11,8 +9,10 @@
 
 .player
 {
-  width: 100vw;
+  width: 80vw;
   height: 100vh;
+  position: absolute;
+  left: 0;
 }
 
 .App-header {

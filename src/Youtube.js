@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "./App.css"
 import YT from 'react-youtube'
 import Dimensions from 'react-dimensions'
+// import Chat from 
 
 class Youtube extends Component
 {
@@ -9,7 +10,8 @@ class Youtube extends Component
     {
         return (
             <div className="App" >
-                <YT className="player" videoId="m6bYJ17psmg" opts={{playerVars: {autoplay: 1, volume: 0, controls: 1}}}></YT>
+                <YT className="player" videoId="m6bYJ17psmg" opts={{playerVars: {autoplay: 0, controls: 1}}}></YT>
+                {/* <Chat></Chat> */}
             </div>
         )
     }
